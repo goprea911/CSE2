@@ -31,11 +31,17 @@ public class BigMac {
         // convert to proportion
         taxRate/=100;
 
+        // 
         double cost$=nBigMacs*bigMac$*(1+taxRate);
+        // 
         int dollars, dimes, pennies;
+        // 
         dollars=(int)cost$;
+        // 
         dimes=(int)(cost$*10)%10;
+        // 
         pennies=(int)(cost$*100)%10;
+        // 
         System.out.println("The total cost of "+nBigMacs+" BigMacs, at $"+bigMac$+" per bigMac,"+
         " with a sales tax of "+(int)(taxRate*100)+"%, is $"+dollars+'.'+dimes+pennies);
         

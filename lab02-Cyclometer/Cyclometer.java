@@ -4,7 +4,7 @@
 //lab02-Cyclometer
 //
 //My bicycle cyclometer
-//
+
 public class Cyclometer {
     //main method required for every Java program
     public static void main (String[] args) {
@@ -14,12 +14,12 @@ public class Cyclometer {
     int countsTrip1=1561; // records # of counts (rotations) of trip 1
     int countsTrip2=9037; // records # of counts (rotations) of trip 2
     
-    double wheelDiameter=27.0, // records double the wheel diameter
+    double wheelDiameter=27.0, // wheel diameter
     PI=3.14159, // defines the value PI
     feetPerMile=5280, // expresses miles in feet
     inchesPerFoot=12, // expresses feet in inches
     secondsPerMinute=60; // expresses minutes in seconds
-    double distanceTrip1, distanceTrip2, totalDistance; // doubles the distance of each trip
+    double distanceTrip1, distanceTrip2, totalDistance; // distance of each trip
     
     // print the values stored in variables above
     System.out.println("Trip 1 took "+(secsTrip1/secondsPerMinute)+" minutes and had "+countsTrip1+" counts."); // 
