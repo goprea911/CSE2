@@ -5,7 +5,7 @@
 
 // compute cost of buying x number of Big Macs, must allow for input from user
 
-    // 1to use scanner
+    // to use scanner
     import java.util.Scanner;
 // define a class
 public class BigMac {
